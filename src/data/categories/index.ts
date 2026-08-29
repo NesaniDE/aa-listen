@@ -25,7 +25,7 @@ export const categories: Category[] = [
       { slug: 'burger', label: 'Burgerläden', listSlug: 'top-10-burgerladen-in-aalen' },
       { slug: 'italiener', label: 'Italiener', listSlug: 'top-10-italiener-in-aalen' },
       { slug: 'pizzerien', label: 'Pizzerien', listSlug: 'top-10-pizzerien-in-aalen' },
-      { slug: 'doener', label: 'Dönerläden', listSlug: 'top-10-donerladen-in-aalen' },
+      { slug: 'doener', label: 'Dönerläden', listSlug: 'top-10-doenerlaeden-in-aalen' },
       { slug: 'bars', label: 'Bars', listSlug: 'top-10-bars-in-aalen' },
       { slug: 'cocktailbars', label: 'Cocktailbars', listSlug: 'top-10-cocktailbars-in-aalen' },
       { slug: 'lieferdienste', label: 'Lieferdienste', listSlug: 'top-10-lieferdienste-in-aalen' },
@@ -46,7 +46,7 @@ export const categories: Category[] = [
       { slug: 'familien', label: 'Orte für Familien', listSlug: 'top-10-orte-familien-in-aalen' },
       { slug: 'sportangebote', label: 'Sportangebote', listSlug: 'top-10-sportangebote-in-aalen' },
       { slug: 'date-spots', label: 'Date-Spots', listSlug: 'top-10-date-spots-in-aalen' },
-      { slug: 'sehenswurdigkeiten', label: 'Sehenswürdigkeiten', listSlug: 'top-10-sehenswurdigkeiten-in-aalen' },
+      { slug: 'sehenswurdigkeiten', label: 'Sehenswürdigkeiten', listSlug: 'top-10-sehenswuerdigkeiten-in-aalen' },
     ],
   },
   {
@@ -86,7 +86,7 @@ export const categories: Category[] = [
     emoji: '',
     description: 'Ärzte, Therapeuten und Gesundheitszentren in Aalen.',
     subcategories: [
-      { slug: 'zahnarzte', label: 'Zahnärzte', listSlug: 'top-10-zahnarzte-in-aalen' },
+      { slug: 'zahnarzte', label: 'Zahnärzte', listSlug: 'top-10-zahnaerzte-in-aalen' },
       { slug: 'physiotherapie', label: 'Physiotherapie', listSlug: 'top-10-physiotherapie-in-aalen' },
       { slug: 'orthopaden', label: 'Orthopäden', listSlug: 'top-10-orthopaden-in-aalen' },
       { slug: 'hausarztpraxen', label: 'Hausarztpraxen', listSlug: 'top-10-hausarztpraxen-in-aalen' },
@@ -127,7 +127,7 @@ export const categories: Category[] = [
     emoji: '',
     description: 'Kfz-Betriebe, Fahrschulen und Mobilität in Aalen.',
     subcategories: [
-      { slug: 'autowerkstatten', label: 'Autowerkstätten', listSlug: 'top-10-autowerkstatten-in-aalen' },
+      { slug: 'autowerkstatten', label: 'Autowerkstätten', listSlug: 'top-10-autowerkstaetten-in-aalen' },
       { slug: 'fahrschulen', label: 'Fahrschulen', listSlug: 'top-10-fahrschulen-in-aalen' },
       { slug: 'autohauser', label: 'Autohäuser', listSlug: 'top-10-autohauser-in-aalen' },
       { slug: 'reifenservices', label: 'Reifenservices', listSlug: 'top-10-reifenservices-in-aalen' },
@@ -155,7 +155,7 @@ export const categories: Category[] = [
     description: 'Lokale Geschäfte, Boutiquen und Shopping in Aalen.',
     subcategories: [
       { slug: 'boutiquen', label: 'Boutiquen', listSlug: 'top-10-boutiquen-in-aalen' },
-      { slug: 'backereien', label: 'Bäckereien', listSlug: 'top-10-backereien-in-aalen' },
+      { slug: 'backereien', label: 'Bäckereien', listSlug: 'top-10-baeckereien-in-aalen' },
       { slug: 'feinkostladen', label: 'Feinkostläden', listSlug: 'top-10-feinkostladen-in-aalen' },
       { slug: 'juweliere', label: 'Juweliere', listSlug: 'top-10-juweliere-in-aalen' },
       { slug: 'geschenkeshops', label: 'Geschenkeshops', listSlug: 'top-10-geschenkeshops-in-aalen' },
