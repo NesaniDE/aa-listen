@@ -39,6 +39,8 @@ const rawCategories: Category[] = [
     emoji: '',
     description: 'Sport, Erholung und Freizeitaktivitäten in Aalen.',
     subcategories: [
+      { slug: 'kultur', label: 'Kultur & Museen', listSlug: 'top-10-kultur-und-museen-in-aalen' },
+      { slug: 'parks', label: 'Parks & Grünanlagen', listSlug: 'top-10-parks-und-gruenanlagen-in-aalen' },
       { slug: 'fitnessstudios', label: 'Fitnessstudios', listSlug: 'top-10-fitnessstudios-in-aalen' },
       { slug: 'schwimmbader', label: 'Freibäder / Schwimmbäder', listSlug: 'top-10-schwimmbaeder-in-aalen' },
       { slug: 'saunen', label: 'Saunen', listSlug: 'top-10-saunen-in-aalen' },
@@ -57,6 +59,8 @@ const rawCategories: Category[] = [
     emoji: '',
     description: 'Professionelle Dienstleister und Experten in Aalen.',
     subcategories: [
+      { slug: 'versicherungen', label: 'Versicherungen', listSlug: 'top-10-versicherungen-in-aalen' },
+      { slug: 'banken', label: 'Banken', listSlug: 'top-10-banken-in-aalen' },
       { slug: 'friseure', label: 'Friseure', listSlug: 'top-10-friseure-in-aalen' },
       { slug: 'barbiere', label: 'Barbiere', listSlug: 'top-10-barbiere-in-aalen' },
       { slug: 'reinigungsfirmen', label: 'Reinigungsfirmen', listSlug: 'top-10-reinigungsfirmen-in-aalen' },
@@ -90,6 +94,7 @@ const rawCategories: Category[] = [
     emoji: '',
     description: 'Ärzte, Therapeuten und Gesundheitszentren in Aalen.',
     subcategories: [
+      { slug: 'optiker', label: 'Optiker', listSlug: 'top-10-optiker-in-aalen' },
       { slug: 'zahnarzte', label: 'Zahnärzte', listSlug: 'top-10-zahnaerzte-in-aalen' },
       { slug: 'physiotherapie', label: 'Physiotherapie', listSlug: 'top-10-physiotherapie-in-aalen' },
       { slug: 'orthopaden', label: 'Orthopäden', listSlug: 'top-10-orthopaden-in-aalen' },
@@ -131,6 +136,7 @@ const rawCategories: Category[] = [
     emoji: '',
     description: 'Kfz-Betriebe, Fahrschulen und Mobilität in Aalen.',
     subcategories: [
+      { slug: 'tankstellen', label: 'Tankstellen', listSlug: 'top-10-tankstellen-in-aalen' },
       { slug: 'autowerkstatten', label: 'Autowerkstätten', listSlug: 'top-10-autowerkstaetten-in-aalen' },
       { slug: 'fahrschulen', label: 'Fahrschulen', listSlug: 'top-10-fahrschulen-in-aalen' },
       { slug: 'autohauser', label: 'Autohäuser', listSlug: 'top-10-autohauser-in-aalen' },
@@ -158,11 +164,34 @@ const rawCategories: Category[] = [
     emoji: '',
     description: 'Lokale Geschäfte, Boutiquen und Shopping in Aalen.',
     subcategories: [
+      { slug: 'elektronikmaerkte', label: 'Elektronik & Technik', listSlug: 'top-10-elektronik-und-technik-in-aalen' },
+      { slug: 'fahrradlaeden', label: 'Fahrradläden', listSlug: 'top-10-fahrradlaeden-in-aalen' },
+      { slug: 'supermaerkte', label: 'Supermärkte', listSlug: 'top-10-supermaerkte-in-aalen' },
+      { slug: 'metzgereien', label: 'Metzgereien', listSlug: 'top-10-metzgereien-in-aalen' },
       { slug: 'boutiquen', label: 'Boutiquen', listSlug: 'top-10-boutiquen-in-aalen' },
       { slug: 'backereien', label: 'Bäckereien', listSlug: 'top-10-baeckereien-in-aalen' },
       { slug: 'feinkostladen', label: 'Feinkostläden', listSlug: 'top-10-feinkostladen-in-aalen' },
       { slug: 'juweliere', label: 'Juweliere', listSlug: 'top-10-juweliere-in-aalen' },
       { slug: 'geschenkeshops', label: 'Geschenkeshops', listSlug: 'top-10-geschenkeshops-in-aalen' },
+    ],
+  },
+  {
+    slug: 'familie',
+    label: 'Familie & Kinder',
+    emoji: '',
+    description: 'Spielplätze, Kinderbetreuung und Orte für Familien in Aalen.',
+    subcategories: [
+      { slug: 'kindergaerten', label: 'Kindergärten', listSlug: 'top-10-kindergaerten-in-aalen' },
+      { slug: 'spielplaetze', label: 'Spielplätze', listSlug: 'top-10-spielplaetze-in-aalen' },
+    ],
+  },
+  {
+    slug: 'uebernachten',
+    label: 'Übernachten',
+    emoji: '',
+    description: 'Hotels, Pensionen und Unterkünfte in Aalen.',
+    subcategories: [
+      { slug: 'hotels', label: 'Hotels', listSlug: 'top-10-hotels-in-aalen' },
     ],
   },
 ]
