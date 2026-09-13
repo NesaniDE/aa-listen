@@ -48,15 +48,9 @@ function getAllUrls(): string[] {
   return [...staticUrls, ...categoryUrls, ...subcategoryUrls, ...listUrls, ...companyUrls, ...blogUrls]
 }
 
-export async function GET(request: Request) {
+export async function GET() {
   try {
     const urlList = getAllUrls()
-
-    // TEMP-DEBUG: Diagnose fuer IndexNow-403. Wird nach der Untersuchung
-    // wieder entfernt.
-    if (new URL(request.url).searchParams.get('debug') === 'urls') {
-      return NextResponse.json({ count: urlList.length, urlList })
-    }
 
     const res = await fetch(INDEXNOW_ENDPOINT, {
       method: 'POST',
