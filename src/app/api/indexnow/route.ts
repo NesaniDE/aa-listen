@@ -6,7 +6,7 @@ import { companies } from '@/data/companies'
 import { blogPosts } from '@/data/blog'
 import { getPublishedSubcategories } from '@/lib/site-structure'
 
-const INDEXNOW_KEY = '75afd409be6377c298561fe263f3dbd8'
+const INDEXNOW_KEY = '2583cf50d9f5ea3d4707cf4cb7d34fa2'
 const INDEXNOW_ENDPOINT = 'https://api.indexnow.org/indexnow'
 
 function getAllUrls(): string[] {
