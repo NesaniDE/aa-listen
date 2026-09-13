@@ -9,6 +9,14 @@ import { getPublishedSubcategories } from '@/lib/site-structure'
 const INDEXNOW_KEY = '2583cf50d9f5ea3d4707cf4cb7d34fa2'
 const INDEXNOW_ENDPOINT = 'https://api.indexnow.org/indexnow'
 
+/**
+ * Ohne diese Zeile behandelt der App Router die Route als statisch: sie
+ * liest weder Cookies noch Header noch Suchparameter, also wuerde Next.js
+ * die Antwort einmal beim Build einfrieren und der taegliche Cron faende
+ * jeden Tag dieselbe alte Antwort vor, statt tatsaechlich neu einzureichen.
+ */
+export const dynamic = 'force-dynamic'
+
 function getAllUrls(): string[] {
   const base = siteConfig.url
 
