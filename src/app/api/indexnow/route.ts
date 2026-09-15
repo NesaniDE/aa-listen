@@ -33,6 +33,7 @@ function getAllUrls(): string[] {
     `${base}/top10`,
     `${base}/blog`,
     `${base}/fuer-unternehmen`,
+    `${base}/beste-social-media-agentur-aalen`,
     `${base}/methodik`,
     `${base}/ueber-aa-listen`,
     `${base}/kontakt`,
