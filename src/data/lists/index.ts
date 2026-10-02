@@ -80,7 +80,7 @@ export const top10Lists: Top10List[] = [
     title: "Top 10 Autowerkstätten in Aalen",
     categorySlug: "auto-mobilitat",
     subcategorySlug: "autowerkstatten",
-    updatedAt: "2026-08",
+    updatedAt: "2026-09-02",
     lastReviewedAt: "2026-08",
     intro: "Diese Liste bündelt zehn Adressen aus dem Bereich Autowerkstätten in Aalen. Die Reihenfolge ist eine redaktionelle Einschätzung von AA Listen nach den Kriterien auf unserer Methodik-Seite: Erreichbarkeit und gepflegter Außenauftritt, Klarheit des Angebots, Lage im Stadtgebiet sowie Umfang der hinterlegten Leistungen. Kundenbewertungen fließen ausdrücklich nicht ein — dafür liegen uns keine belastbaren Daten vor. Ein objektives Qualitätsurteil ist damit nicht verbunden. Datenbasis: OpenStreetMap, Stand 2026-08.",
     entries: [
