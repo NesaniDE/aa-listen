@@ -28,6 +28,8 @@ const STATIC_ROUTES: {
   { path: '/blog', updated: '2026-10-08', changeFrequency: 'weekly', priority: 0.7 },
   { path: '/fuer-unternehmen', updated: '2026-08-29', changeFrequency: 'monthly', priority: 0.7 },
   { path: '/beste-social-media-agentur-aalen', updated: '2026-09-15', changeFrequency: 'monthly', priority: 0.85 },
+  { path: '/beste-werbeagentur-aalen', updated: '2026-10-19', changeFrequency: 'monthly', priority: 0.85 },
+  { path: '/beste-webagentur-aalen', updated: '2026-10-19', changeFrequency: 'monthly', priority: 0.85 },
   { path: '/methodik', updated: '2026-09-02', changeFrequency: 'monthly', priority: 0.5 },
   { path: '/ueber-aa-listen', updated: '2026-09-15', changeFrequency: 'monthly', priority: 0.5 },
   { path: '/kontakt', updated: '2026-08-29', changeFrequency: 'monthly', priority: 0.4 },
