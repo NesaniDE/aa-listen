@@ -69,6 +69,7 @@ const rawCategories: Category[] = [
       { slug: 'webagenturen', label: 'Webagenturen', listSlug: 'top-10-webagenturen-in-aalen' },
       { slug: 'werbeagenturen', label: 'Werbeagenturen', listSlug: 'top-10-werbeagenturen-in-aalen' },
       { slug: 'unternehmensberater', label: 'Unternehmensberater', listSlug: 'top-10-unternehmensberater-in-aalen' },
+      { slug: 'digitalisierungsberatung', label: 'Digitalisierungsberatung', listSlug: 'top-10-digitalisierungsberatung-in-aalen' },
       { slug: 'it-dienstleister', label: 'IT-Dienstleister', listSlug: 'top-10-it-dienstleister-in-aalen' },
       { slug: 'social-media-beratung', label: 'Social-Media-Beratung', listSlug: 'top-10-social-media-beratung-in-aalen' },
       { slug: 'social-media', label: 'Social-Media-Agenturen', listSlug: 'top-10-social-media-agenturen-in-aalen' },
