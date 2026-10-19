@@ -1346,7 +1346,7 @@ export const companies: Company[] = [
     name: "Samocca - Integratives Café",
     category: "gastro",
     subcategory: "cafes",
-    description: "Inklusives Café mit eigener Kaffeerösterei und Deli-Angebot an der Friedhofstraße in Aalen.",
+    description: "Inklusives Café an der Friedhofstraße mit eigener Kaffeerösterei, Frühstück und Deli-Angebot.",
     longDescription: "Samocca an der Friedhofstraße verbindet Cafébetrieb, Kaffeerösterei und ein Deli-Angebot. Sortenreine Kaffees und eigene Mischungen stehen neben Tee, Trinkschokolade und Speisen auf der Karte. Die aktuelle Aalener Sommerkarte 2026 enthält auch eine eigene Frühstücksrubrik. Zum Konzept gehört die berufliche Teilhabe von Menschen mit Behinderung oder psychischer Erkrankung, die in unterschiedlichen Bereichen mitarbeiten. Träger ist die Samariterstiftung. Wer Kaffee und ein nachvollziehbares soziales Betriebskonzept verbinden möchte, findet hier eine eigenständige Adresse.",
     address: "Friedhofstraße 11, 73430 Aalen",
     phone: "+49 7361 529031",
